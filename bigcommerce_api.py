@@ -6,7 +6,7 @@ def add_product_to_bigcommerce(product_data):
         'https://api.bigcommerce.com/stores/op9ph1xlis/v3/catalog/products',
         headers={
             'Content-Type': 'application/json',
-            'X-Auth-Token': 'q7bhsjn1imzrn45pciqtgri50z90ts'
+            'X-Auth-Token': 'Aqui va el apikey'
         },
         json=product_data
     )
